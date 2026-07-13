@@ -18,21 +18,26 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 1. Clone this repository to your local machine.
 2. Open your terminal in the project directory.
 3. Run the server using the following command:
-   ```bash
-   node server.js
 
 
-   How to Test
-# Method 1: Web Browser
-Open your browser and navigate to:
+## How to Test
 
-http://localhost:3000/ (Endpoint 1)
+### Method 1: Web Browser
 
-http://localhost:3000/about (Endpoint 2)
+```
+    Open your browser and navigate to:
 
-# Method 2: Command Line (curl)
-Open a new terminal window and run:
+    http://localhost:3000/ (Endpoint 1)
 
-curl http://localhost:3000/
+    http://localhost:3000/about (Endpoint 2)
+```
 
-curl http://localhost:3000/about ``` 
+### Method 2: Command Line (curl)
+
+```
+    Open a new terminal window and run:
+
+    curl http://localhost:3000/
+
+    curl http://localhost:3000/about
+```
