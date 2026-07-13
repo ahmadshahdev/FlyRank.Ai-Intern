@@ -17,7 +17,7 @@ const server = http.createServer((request, response) => {
 
 		//error hehehehe!!
 	} else {
-		response.end(JSON, stringify({ error: "Error port not found" }));
+		response.end(JSON, stringify({ error: "Error 404 path not found" }));
 	}
 });
 
