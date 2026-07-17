@@ -76,6 +76,19 @@ Once the server is running, open your browser and visit:
 ![Swagger UI Screenshot](./screenshot.png)
 
 ---
+## Images
+<img src="./swagger images/Screenshot (19).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
+<img src="./swagger images/Screenshot (20).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
+<img src="./swagger images/Screenshot (21).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
+<img src="./swagger images/Screenshot (22).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
+<img src="./swagger images/Screenshot (23).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
+<img src="./swagger images/Screenshot (24).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
+<img src="./swagger images/Screenshot (25).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
+<img src="./swagger images/Screenshot (26).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
+
+
+
+---
 ### Stage 7: AI vs Me (Optional)
 *If you completed the AI Rematch bonus stage, document your findings here:*
 * **What the AI did better:** [Your observation here]
