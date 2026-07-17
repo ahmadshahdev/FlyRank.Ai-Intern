@@ -8,8 +8,8 @@ Here is a directory of my completed tasks. Click on any link below to navigate d
 
 * **[Assignment 1: Minimal JSON Server](./Assignment-1/Assignment-1-Server.js)** 
   * *Description:* A native Node.js backend demonstrating the web's request-response loop using plain JavaScript.
-* **[Assignment 2: Title ](./link soon)**
-  * *Description:* Coming soon...
+* **[Week 2 Assignment 1: CURD API ](./week-2%20Assignment%201%20CURD/)**
+  * *Description:* A simple, in-memory RESTful API built with Node.js and Express to manage a daily to-do list. This project was built for Week 2 Assignment 1, demonstrating foundational CRUD (Create, Read, Update, Delete) operations and API documentation using Swagger UI.
 * **[Assignment 3: Title](./link soon)**
   * *Description:* Coming soon...
 
