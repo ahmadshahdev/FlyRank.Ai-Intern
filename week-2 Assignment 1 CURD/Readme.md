@@ -77,15 +77,15 @@ Once the server is running, open your browser and visit:
 
 ---
 ## Images
-<img src="./swagger images/Screenshot (19).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
-<img src="./swagger images/Screenshot (20).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
-<img src="./swagger images/Screenshot (21).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
-<img src="./swagger images/Screenshot (22).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
-<img src="./swagger images/Screenshot (23).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
-<img src="./swagger images/Screenshot (24).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
-<img src="./swagger images/Screenshot (25).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
-<img src="./swagger images/Screenshot (26).png alt="Swagger UI Screenshot" width="500" heigth = "auto">
-
+## Images
+<img src="./swagger images/Screenshot (19).png" alt="Swagger UI Screenshot" width="500" height="auto">
+<img src="./swagger images/Screenshot (20).png" alt="Swagger UI Screenshot" width="500" height="auto">
+<img src="./swagger images/Screenshot (21).png" alt="Swagger UI Screenshot" width="500" height="auto">
+<img src="./swagger images/Screenshot (22).png" alt="Swagger UI Screenshot" width="500" height="auto">
+<img src="./swagger images/Screenshot (23).png" alt="Swagger UI Screenshot" width="500" height="auto">
+<img src="./swagger images/Screenshot (24).png" alt="Swagger UI Screenshot" width="500" height="auto">
+<img src="./swagger images/Screenshot (25).png" alt="Swagger UI Screenshot" width="500" height="auto">
+<img src="./swagger images/Screenshot (26).png" alt="Swagger UI Screenshot" width="500" height="auto">
 
 
 ---
