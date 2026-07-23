@@ -1,0 +1,119 @@
+{
+	"openapi": "3.0.0",
+	"info": {
+		"title": "Task CRUD API",
+		"version": "1.0.0",
+		"description": "A simple in-memory CRUD API for managing tasks. Click **Try it out** on any endpoint to test it!"
+	},
+	"tags": [
+		{
+			"name": "Tasks",
+			"description": "Manage your daily to-do list"
+		}
+	],
+	"paths": {
+		"/tasks": {
+			"get": {
+				"tags": ["Tasks"],
+				"summary": "1. Get all tasks",
+				"description": "Fetches the complete list of tasks currently saved in memory.",
+				"responses": {
+					"200": {
+						"description": "A list of tasks successfully retrieved."
+					}
+				}
+			},
+			"post": {
+				"tags": ["Tasks"],
+				"summary": "2. Create a new task",
+				"description": "Add a new task to your list. The `id` will be generated automatically, and `done` will default to `false`.",
+				"requestBody": {
+					"required": true,
+					"content": {
+						"application/json": {
+							"schema": {
+								"type": "object",
+								"properties": {
+									"title": {
+										"type": "string",
+										"example": "Finish reading the Node.js documentation"
+									}
+								}
+							}
+						}
+					}
+				},
+				"responses": {
+					"201": { "description": "Task successfully created." },
+					"400": { "description": "Bad Request: Title is missing." }
+				}
+			}
+		},
+		"/tasks/{id}": {
+			"parameters": [
+				{
+					"name": "id",
+					"in": "path",
+					"required": true,
+					"description": "The unique ID of the task",
+					"schema": {
+						"type": "integer",
+						"example": 1
+					}
+				}
+			],
+			"get": {
+				"tags": ["Tasks"],
+				"summary": "3. Get a specific task",
+				"description": "Look up a single task by its ID number.",
+				"responses": {
+					"200": { "description": "Task found and returned." },
+					"404": { "description": "Task not found." }
+				}
+			},
+			"put": {
+				"tags": ["Tasks"],
+				"summary": "4. Update a task",
+				"description": "Modify an existing task's title, or mark it as done.",
+				"requestBody": {
+					"required": true,
+					"content": {
+						"application/json": {
+							"schema": {
+								"type": "object",
+								"properties": {
+									"title": {
+										"type": "string",
+										"example": "Review LeetCode problems"
+									},
+									"done": {
+										"type": "boolean",
+										"example": true
+									}
+								}
+							}
+						}
+					}
+				},
+				"responses": {
+					"200": { "description": "Task successfully updated." },
+					"400": {
+						"description": "Bad Request: No valid fields provided."
+					},
+					"404": { "description": "Task not found." }
+				}
+			},
+			"delete": {
+				"tags": ["Tasks"],
+				"summary": "5. Delete a task",
+				"description": "Permanently remove a task from memory.",
+				"responses": {
+					"204": {
+						"description": "Task successfully deleted (No Content returned)."
+					},
+					"404": { "description": "Task not found." }
+				}
+			}
+		}
+	}
+}
