@@ -10,8 +10,8 @@ Here is a directory of my completed tasks. Click on any link below to navigate d
   * *Description:* A native Node.js backend demonstrating the web's request-response loop using plain JavaScript.
 * **[Week 2 Assignment 1: CURD API ](./week-2%20Assignment%201%20CURD/)**
   * *Description:* A simple, in-memory RESTful API built with Node.js and Express to manage a daily to-do list. This project was built for Week 2 Assignment 1, demonstrating foundational CRUD (Create, Read, Update, Delete) operations and API documentation using Swagger UI.
-* **[Assignment 3: Title](./link soon)**
-  * *Description:* Coming soon...
+* **[Assignment 3: A2 Connecting to database](./Week%203/Assg-1-A2%20Connecting%20to%20the%20database/)**
+  * *Description:* A RESTful API built with Node.js and Express that manages a daily to-do list. In this iteration (Week 3), the volatile in-memory storage has been replaced with a persistent SQLite database.
 
 ## 🎯 Primary Learning Goals
 During this Backend AI internship, my core focus is bridging the gap between artificial intelligence and robust server architecture. My specific objectives include:
