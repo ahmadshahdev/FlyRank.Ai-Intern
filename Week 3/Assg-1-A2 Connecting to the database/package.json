@@ -1,7 +1,7 @@
 {
   "name": "assg-1-a2-connecting-to-the-database",
   "version": "1.0.0",
-  "description": "",
+  "description": "Markdown# Task API - Database Edition",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
